@@ -1,0 +1,62 @@
+Tag PHP:
+- Mulai dan akhiri blok PHP dengan tag <?php dan ?>.
+
+Komentar:
+- Komentar satu baris menggunakan //.
+- Komentar beberapa baris menggunakan /* */.
+
+Variabel:
+- Variabel diawali dengan tanda dollar $.
+- Tidak perlu mendeklarasikan tipe data.
+
+Tipe data dasar:
+- string 
+- integer 
+- float 
+- boolean 
+- array 
+- null
+
+Operator:
+- Operator aritmatika: +, -, *, /, %.
+- Operator perbandingan: ==, !=, >, <, >=, <=.
+- Operator logika: &&, ||, !.
+
+Percabangan:
+- if, else, elseif untuk eksekusi bersyarat.
+- switch, case, break untuk percabangan nilai.
+
+Perulangan:
+- for, while, do-while untuk perulangan.
+- foreach untuk perulangan khusus array.
+
+Fungsi:
+- Mendefinisikan dengan function.
+- Mengembalikan nilai dengan return.
+- Memanggil fungsi dengan nama dan argumen.
+
+Array:
+- Membuat array dengan array() atau [].
+- Mengakses elemen dengan indeks.
+
+String:
+- Menggabungkan string dengan operator ..
+- Mengakses karakter dengan indeks.
+
+Include dan Require:
+- include dan require digunakan untuk menyertakan file eksternal.
+- Perbedaannya, require akan menghasilkan fatal error jika file tidak ditemukan, sedangkan include hanya akan menghasilkan peringatan.
+
+Session:
+- Memulai session dengan session_start().
+- Menetapkan nilai session dengan $_SESSION['key'] = value.
+- Mengakses nilai session dengan $_SESSION['key'].
+
+variabel Superglobals :
+- $_GET
+- $_POST
+- $_REQUEST
+- $_SESSION
+- $_COOKIE
+- $_SERVER
+- $_ENV
